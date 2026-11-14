@@ -1,0 +1,139 @@
+# Editor settings for Pages CMS (app.pagescms.org).
+# Each section below appears as a page in the editor.
+media:
+  - name: images
+    label: Images
+    input: src/img
+    output: /img
+    categories: [image]
+  - name: videos
+    label: Videos
+    input: src/media
+    output: /media
+    categories: [video]
+
+content:
+  - name: home
+    label: Homepage
+    type: file
+    path: src/_data/home.yaml
+    format: yaml
+    fields:
+      - { name: lead, label: Statement – first sentence (dark), type: text }
+      - { name: follow, label: Statement – second sentence (grey), type: text }
+      - name: selected
+        label: Selected work (top grid – order sets the layout slots, keep 7)
+        type: object
+        list: { min: 7, max: 7 }
+        fields: &card
+          - name: project
+            label: Links to project
+            type: select
+            options:
+              values: [accenture, t-mobile-5gme, pepsi, nissan-global, google-next, apollo, chicago-bears, apec, adt-ces, vodafone-mwc, vodafone-power-of-voice, jw-marriott-venice, intel-garden, aia26, figma-config, amazon-relaycon]
+          - { name: image, label: Card image, type: image, options: { media: images } }
+          - { name: client, label: Client, type: string }
+          - { name: title, label: Project title, type: string }
+          - { name: concept, label: Show "Concept" tag, type: boolean }
+          - { name: dark_fade, label: Stronger dark fade (for bright images), type: boolean }
+      - name: more
+        label: More projects (lower grid)
+        type: object
+        list: true
+        fields: *card
+
+  - name: projects
+    label: Projects page
+    type: file
+    path: src/_data/projects.yaml
+    format: yaml
+    fields:
+      - name: projects
+        label: Projects (drag to reorder)
+        type: object
+        list: true
+        fields:
+          - { name: id, label: Link name (no spaces – used by homepage cards), type: string }
+          - { name: client, label: Client, type: string }
+          - { name: title, label: Project title, type: string }
+          - { name: concept, label: Concept project, type: boolean }
+          - { name: role, label: Role and city, type: string }
+          - { name: description, label: Description, type: text }
+          - { name: credit, label: Photo credit (optional), type: string }
+          - name: rows
+            label: Image rows
+            type: object
+            list: true
+            fields:
+              - name: layout
+                label: Row layout
+                type: select
+                options:
+                  values:
+                    - full            # 1 image, full width
+                    - wide-left       # 2 images, wide then narrow
+                    - wide-right      # 2 images, narrow then wide
+                    - halves          # 2 images, equal
+                    - tall-landscape  # 2 images, portrait then landscape
+                    - landscape-tall  # 2 images, landscape then portrait
+                    - three-tall      # 3 portrait images
+                    - tall-stack      # 1 tall image + 2 stacked
+                    - video-stack     # 1 looping video + 2 stacked
+              - name: items
+                label: Images in this row
+                type: object
+                list: true
+                fields:
+                  - { name: image, label: Image, type: image, options: { media: images } }
+                  - { name: video, label: Video (instead of image), type: file, options: { media: videos } }
+                  - { name: poster, label: Video poster image, type: image, options: { media: images } }
+                  - { name: autoplay, label: Silent looping video (off = film with play button), type: boolean }
+                  - { name: duration, label: Film length (e.g. 4:00), type: string }
+                  - { name: alt, label: Description for screen readers (optional), type: string }
+                  - { name: crop, label: Advanced crop (leave as is), type: string }
+
+  - name: about
+    label: About page
+    type: file
+    path: src/_data/about.yaml
+    format: yaml
+    fields:
+      - { name: intro_lead, label: Heading – first part (dark), type: string }
+      - { name: intro_follow, label: Heading – second part (grey), type: text }
+      - { name: profile, label: Profile paragraphs, type: text, list: true }
+      - name: approach
+        label: Approach (3 columns)
+        type: object
+        list: { min: 3, max: 3 }
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+      - { name: success_label, label: List heading, type: string }
+      - name: success
+        label: A successful project is
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: string }
+      - { name: capabilities, label: Capabilities, type: string, list: true }
+      - { name: clients, label: Clients, type: string, list: true }
+      - { name: agencies, label: Agencies, type: string, list: true }
+
+  - name: site
+    label: Name, contact & links
+    type: file
+    path: src/_data/site.yaml
+    format: yaml
+    fields:
+      - { name: name, label: Name, type: string }
+      - { name: subtitle, label: Subtitle under name, type: string }
+      - { name: contact_line, label: Contact heading, type: string }
+      - { name: email, label: Email, type: string }
+      - { name: phone, label: Phone (as shown), type: string }
+      - { name: phone_link, label: Phone (digits only, with +1), type: string }
+      - { name: location, label: Location line, type: string }
+      - { name: linkedin, label: LinkedIn URL, type: string }
+      - { name: instagram, label: Instagram URL, type: string }
+      - { name: description, label: Search engine description, type: text }
+      - { name: share_image, label: Image shown when the link is shared, type: image, options: { media: images } }

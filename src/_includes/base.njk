@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ pageTitle }}</title>
+<meta name="description" content="{{ site.description }}">
+<meta property="og:title" content="{{ pageTitle }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.edmundsorrell.com{{ page.url }}">
+{% if site.share_image %}<meta property="og:image" content="https://www.edmundsorrell.com{{ site.share_image }}">{% endif %}
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="canonical" href="https://www.edmundsorrell.com{{ page.url }}">
+<link rel="preload" href="/fonts/instrument-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/fonts.css">
+<link rel="stylesheet" href="/css/{{ cssFile }}.css">
+</head>
+<body>
+<div id="es"><div class="w">
+
+<header class="hd">
+<div class="id"><a class="nm" href="/">{{ site.name }}</a><span class="mu">{{ site.subtitle }}</span></div>
+<nav aria-label="Main"><a href="/work">Projects</a><a href="/info">About</a><a href="#es-contact">Contact</a></nav>
+</header>
+
+{{ content | safe }}
+<section aria-label="Contact" class="ct" id="es-contact">
+<p class="say">{{ site.contact_line }}</p>
+<a class="em" href="mailto:{{ site.email }}">{{ site.email }}</a>
+<div class="row">
+<div><a href="tel:{{ site.phone_link }}">{{ site.phone }}</a><span class="mu">{{ site.location }}</span></div>
+<div><a href="{{ site.linkedin }}" rel="noopener" target="_blank">LinkedIn</a><a href="{{ site.instagram }}" rel="noopener" target="_blank">Instagram</a></div>
+</div>
+</section>
+
+</div></div>
+</body>
+</html>

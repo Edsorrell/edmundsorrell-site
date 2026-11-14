@@ -1,0 +1,25 @@
+---
+layout: base.njk
+permalink: /info/
+pageTitle: Info | Edmund Sorrell
+cssFile: info
+---
+<p class="ptitle">{{ about.intro_lead }} <span class="g">{{ about.intro_follow }}</span></p>
+<section class="ab">
+<div class="abr"><span class="mu">Profile</span><div>{% for p in about.profile %}<p>{{ p }}</p>{% endfor %}</div></div>
+<div class="abr"><span class="mu">Approach</span><div class="ap3">
+{% for a in about.approach %}<div><span class="mu">{{ "0" if loop.index < 10 }}{{ loop.index }}</span><h3>{{ a.title }}</h3><p>{{ a.text }}</p></div>
+{% endfor %}</div></div>
+<div class="abr"><span class="mu">{{ about.success_label }}</span><ul class="lst2">
+{% for s in about.success %}<li><b>{{ s.title }}</b><span class="mu">{{ s.text }}</span></li>
+{% endfor %}</ul></div>
+<div class="abr"><span class="mu">Capabilities</span><ul class="cols">
+{% for c in about.capabilities %}<li>{{ c }}</li>{% endfor %}
+</ul></div>
+<div class="abr"><span class="mu">Clients include</span><ul class="cols">
+{% for c in about.clients %}<li>{{ c }}</li>{% endfor %}
+</ul></div>
+<div class="abr"><span class="mu">Agencies</span><ul class="cols">
+{% for c in about.agencies %}<li>{{ c }}</li>{% endfor %}
+</ul></div>
+</section>

@@ -1,0 +1,16 @@
+---
+layout: base.njk
+permalink: /
+pageTitle: Edmund Sorrell
+cssFile: home
+---
+{%- set n = 0 -%}
+{%- macro card(c, cls) -%}
+<a class="t {{ cls }}{% if c.dark_fade %} dk{% endif %}" href="/work#{{ c.project }}"><span class="im"><img src="{{ c.image }}" alt="{{ c.client }}, {{ c.title }}" loading="lazy"></span><span class="cap{% if c.concept %} cc{% endif %}"><span class="ttl"><span class="cl">{{ c.client }}</span> <span class="mu">{{ c.title }}</span>{% if c.concept %}<span class="tag">Concept</span>{% endif %}</span></span></a>
+{%- endmacro -%}
+<p class="intro i2"><span class="b">{% for w in home.lead | words %}<span class="wd"><span style="--d:{{ loop.index0 }}">{{ w }}</span></span>{% if not loop.last %} {% endif %}{% endfor %}</span> <span class="g">{% set off = (home.lead | words).length %}{% for w in home.follow | words %}<span class="wd"><span style="--d:{{ loop.index0 + off }}">{{ w }}</span></span>{% if not loop.last %} {% endif %}{% endfor %}</span></p>
+<div class="sw"><span>Selected work</span><a href="/work">All projects →</a></div>
+<section class="grid" aria-label="Selected work">{% for c in home.selected %}{{ card(c, "wide" if loop.first else "half") }}{% endfor %}</section>
+
+<div class="sw sw2"><span>More projects</span><a href="/work">All projects →</a></div>
+<section class="grid more" aria-label="More projects">{% for c in home.more %}{{ card(c, "q") }}{% endfor %}</section>

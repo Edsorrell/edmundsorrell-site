@@ -1,0 +1,17 @@
+---
+layout: base.njk
+permalink: /work/
+pageTitle: Work | Edmund Sorrell
+cssFile: work
+---
+{%- from "media.njk" import row -%}
+<p class="ptitle">Projects</p>
+{% for p in projects.projects %}
+<section class="cp" id="{{ p.id }}">
+<div class="cph"><h2>{{ p.client }} <span class="mu">{{ p.title }}</span></h2>{% if p.concept %}<span class="tag">Concept</span>{% endif %}</div>
+<div class="cpi"><span class="mu">{{ p.role }}</span><p>{{ p.description }}</p></div>
+<div class="gal">{% for r in p.rows %}{{ row(r, p.client + ", " + p.title) }}{% endfor %}</div>
+{%- if p.credit %}
+<p class="cred mu">{{ p.credit }}</p>{% endif %}
+</section>
+{% endfor %}

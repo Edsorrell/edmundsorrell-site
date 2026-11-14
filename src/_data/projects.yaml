@@ -1,0 +1,385 @@
+projects:
+- id: accenture
+  client: Accenture
+  title: Ideas for Change
+  concept: false
+  role: Creative Director, New York
+  description: An interactive installation for Accenture’s U.S. innovation hub at 1 Manhattan West, where employee-submitted ideas activate choreographed motion across a phyllotaxis-based array of acrylic hemispheres.
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - video: /media/es-accenture-film.mp4
+      poster: /img/es-accenture-film-poster.jpg
+      alt: Accenture Ideas for Change film
+      duration: '4:00'
+  - layout: wide-left
+    items:
+    - image: /img/es-accenture-01.jpg
+    - image: /img/es-accenture-02.jpg
+  - layout: full
+    items:
+    - image: /img/es-accenture-05.jpg
+  - layout: wide-right
+    items:
+    - image: /img/es-accenture-03.jpg
+    - image: /img/es-accenture-06.jpg
+  - layout: full
+    items:
+    - image: /img/es-accenture-07.jpg
+- id: t-mobile-5gme
+  client: T-Mobile
+  title: 5G & Me
+  concept: false
+  role: Creative Director, Bellevue
+  description: An experiential environment structured as a sequence of spatial zones translating 5G technology into applied, real-world contexts, from urban infrastructure to rural landscapes.
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/es-tmobile-02.jpg
+  - layout: wide-right
+    items:
+    - image: /img/es-tmobile-03.jpg
+    - image: /img/es-tmobile-05-hd.jpg
+  - layout: halves
+    items:
+    - image: /img/es-tmobile-06-hd.jpg
+    - image: /img/es-tmobile-07-hd.jpg
+  - layout: tall-landscape
+    items:
+    - image: /img/es-tmobile-01.jpg
+    - image: /img/es-tmobile-08-hd.jpg
+- id: pepsi
+  client: Pepsi
+  title: Champions League Final
+  concept: false
+  role: Creative Lead, Kyiv
+  description: A participatory fan zone pavilion designed to embody Pepsi’s “Love It. Live It.” platform through immersive, movement-driven interaction and collective fan engagement.
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/es-pepsi-01-hd.jpg
+  - layout: wide-left
+    items:
+    - image: /img/es-pepsi-02.jpg
+    - image: /img/es-pepsi-03.jpg
+  - layout: wide-right
+    items:
+    - image: /img/es-pepsi-05.jpg
+    - image: /img/es-pepsi-06.jpg
+  - layout: halves
+    items:
+    - image: /img/es-pepsi-07.jpg
+    - image: /img/es-pepsi-08.jpg
+- id: nissan-global
+  client: Nissan
+  title: Global Motor Show Experiences
+  concept: false
+  role: Creative Lead, Global
+  description: A global motor show environment organized around an inward-facing amphitheater and continuous overhead halo, integrating architecture, media, light, and sound to unify product presentation across markets.
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/es-nissan-01-hd.jpg
+  - layout: wide-right
+    items:
+    - image: /img/es-nissan-02-hd.jpg
+    - image: /img/es-nissan-03-hd.jpg
+  - layout: halves
+    items:
+    - image: /img/nissan-naias-55.jpg
+    - image: /img/nissan-naias-59.jpg
+  - layout: tall-landscape
+    items:
+    - image: /img/nissan-naias-83.jpg
+    - image: /img/nissan-naias-41.jpg
+  - layout: full
+    items:
+    - image: /img/nissan-sport-sedan-concept-unveiling.png
+- id: google-next
+  client: Google
+  title: G Suite & Hardware Showcases
+  concept: false
+  role: Creative Director, San Francisco
+  description: Two modular exhibit environments designed to present Google’s consumer software and hardware products, each structured around a distinct spatial system aligned to product narrative and interaction.
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/es-google-08a.jpg
+  - layout: wide-left
+    items:
+    - image: /img/es-google-01-hd.jpg
+    - image: /img/es-google-02-hd.jpg
+  - layout: wide-right
+    items:
+    - image: /img/es-google-06-hd.jpg
+    - image: /img/es-google-07a.jpg
+  - layout: halves
+    items:
+    - image: /img/es-google-09-hd_1.jpg
+    - image: /img/es-google-10-hd_1.jpg
+- id: apollo
+  client: Apollo
+  title: Annual Meeting
+  concept: false
+  role: 3D Creative Lead, New York
+  description: Environmental design for Apollo’s annual meeting in New York. A quiet, architectural language of travertine and natural stone, warm timber, soft seating and planting carries the brand from the main stage to the gifting lounge, set against the Manhattan skyline.
+  credit: 'Photography: Paul Weaver'
+  rows:
+  - layout: full
+    items:
+    - image: /img/es-apollo-03.jpg
+  - layout: wide-right
+    items:
+    - image: /img/es-apollo-04.jpg
+    - image: /img/es-apollo-12.jpg
+  - layout: full
+    items:
+    - image: /img/es-apollo-05.jpg
+  - layout: halves
+    items:
+    - image: /img/es-apollo-06.jpg
+    - image: /img/es-apollo-07.jpg
+  - layout: three-tall
+    items:
+    - image: /img/es-apollo-08.jpg
+    - image: /img/es-apollo-13.jpg
+    - image: /img/es-apollo-10.jpg
+- id: chicago-bears
+  client: Chicago Bears
+  title: Great British Bears
+  concept: false
+  role: Group Creative Director, London
+  description: 'A Chicago Bears event in London, built around a tongue-in-cheek concept: Great British Bears. The setting was Two Temple Place, the neo-Gothic mansion built for William Waldorf Astor. We used AI tools to create bespoke artworks, casting bears as gentlemen, aristocrats and heroes in portraits and tapestries, set through its oak-paneled rooms in warm, low light.'
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/p1004788a.jpg
+  - layout: tall-stack
+    items:
+    - image: /img/p1004761-pano.jpeg
+    - image: /img/p1004719.jpeg
+    - image: /img/p1004734.jpeg
+  - layout: wide-left
+    items:
+    - image: /img/p1004771.jpeg
+    - image: /img/p1004682.jpeg
+  - layout: full
+    items:
+    - image: /img/p1004834.jpeg
+- id: apec
+  client: APEC
+  title: Leaders Week
+  concept: false
+  role: Group Creative Director, San Francisco
+  description: 'Environments for APEC Leaders Week in San Francisco, organized around a working concept of harmony: spaces calibrated for productive, meaningful meetings between world leaders and their delegations.'
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/bs1_8157_53338425281_o.jpg
+  - layout: tall-landscape
+    items:
+    - image: /img/es-apec-scrim.jpg
+      crop: object-position:50% 30%
+    - image: /img/ml1_6008_53336918619_o.jpg
+      crop: transform:scale(1.4);transform-origin:42% 35%;filter:contrast(1.1) saturate(1.06) brightness(1.03) sepia(.06)
+  - layout: wide-right
+    items:
+    - image: /img/bs5_7608_53339234675_o.jpg
+    - image: /img/apec-leaders-week-friday_53343474111_o.jpg
+  - layout: halves
+    items:
+    - image: /img/bz4_1494_53335501130_o.jpg
+    - image: /img/bs2_1592_53335083403_o.jpg
+- id: adt-ces
+  client: ADT
+  title: CES Brand Showcase
+  concept: false
+  role: Creative Director, Las Vegas
+  description: 'A brand showcase positioning ADT as socially engaged and everywhere, built around a single question: what do you want to protect? The answers played out through a sequence of interactive, experiential moments.'
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/es-adt-01.jpg
+  - layout: wide-left
+    items:
+    - image: /img/es-adt-02.jpg
+    - image: /img/es-adt-03.jpg
+  - layout: wide-right
+    items:
+    - image: /img/es-adt-04.jpg
+    - image: /img/es-adt-05.jpg
+  - layout: full
+    items:
+    - image: /img/es-adt-06.jpg
+  - layout: video-stack
+    items:
+    - video: /media/es-adt-pool.mp4
+      poster: /img/es-adt-pool-poster.jpg
+      autoplay: true
+      alt: ADT Protection Pool, a visitor falling into the ball pit
+    - image: /img/es-adt-07.jpg
+    - image: /img/es-adt-08.jpg
+- id: vodafone-mwc
+  client: Vodafone
+  title: Mobile World Congress
+  concept: true
+  role: Creative Lead, Barcelona
+  description: An exhibition environment for Vodafone at Mobile World Congress, Barcelona.
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/8.jpg
+  - layout: wide-right
+    items:
+    - image: /img/3.jpg
+    - image: /img/4.jpg
+  - layout: halves
+    items:
+    - image: /img/5.jpg
+    - image: /img/6.jpg
+  - layout: full
+    items:
+    - image: /img/2.jpg
+- id: vodafone-power-of-voice
+  client: Vodafone
+  title: Power of Voice
+  concept: true
+  role: 3D Creative Lead, London
+  description: A campaign environment for Vodafone’s Power of Voice, London.
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/covent-garden.jpg
+  - layout: tall-landscape
+    items:
+    - image: /img/plinth.jpg
+    - image: /img/sation.png
+  - layout: wide-left
+    items:
+    - image: /img/bus-stop.png
+    - image: /img/retail.png
+  - layout: tall-landscape
+    items:
+    - image: /img/retail2.png
+    - image: /img/phone.jpg
+- id: jw-marriott-venice
+  client: JW Marriott
+  title: Venice Hotel Launch
+  concept: false
+  role: Design Director and Creative Lead, Venice
+  description: 'A locally inspired opening for a new hotel island in the Venetian lagoon: a three-day event culminating in a gala of installations drawn from local island traditions.'
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/jm-1707.jpg
+  - layout: wide-right
+    items:
+    - image: /img/gwb-4306.jpg
+    - image: /img/gwb-4431.jpg
+  - layout: halves
+    items:
+    - image: /img/gwb-4427.jpg
+    - image: /img/jm-3304.jpg
+  - layout: wide-left
+    items:
+    - image: /img/gwb-4455.jpg
+    - image: /img/gwb-4329.jpg
+- id: intel-garden
+  client: Intel
+  title: Garden of AI
+  concept: true
+  role: Group Creative Director, Las Vegas
+  description: 'A concept for Intel AI Everywhere: a living garden where every visitor plants a seed. A short prompt on their phone grows a one-of-a-kind AI flower that blooms across a central LED column among illuminated trees, then follows them home as a way into Intel’s enterprise AI story.'
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/es-c-intel-garden-01.jpg
+  - layout: wide-left
+    items:
+    - image: /img/es-c-intel-garden-02.jpg
+    - image: /img/es-c-intel-garden-03.jpg
+  - layout: wide-right
+    items:
+    - image: /img/es-c-intel-garden-04.jpg
+    - image: /img/es-c-intel-garden-05.jpg
+  - layout: full
+    items:
+    - image: /img/es-c-intel-garden-06.jpg
+- id: aia26
+  client: AIA26
+  title: Built to Inspire
+  concept: true
+  role: Group Creative Director, San Diego
+  description: A concept for the 2026 AIA Conference on Architecture & Design. Taking cues from Rogers, Vignelli and Niemeyer, one design system of bold red graphics, a rigorous grid and living materials runs from registration and the AIA Pavilion to the theaters, the store and the general session.
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/es-c-aia26-01.jpg
+  - layout: wide-right
+    items:
+    - image: /img/es-c-aia26-02-v2.jpg
+    - image: /img/es-c-aia26-03-v2.jpg
+  - layout: halves
+    items:
+    - image: /img/es-c-aia26-04-v2.jpg
+    - image: /img/es-c-aia26-05-v2.jpg
+  - layout: full
+    items:
+    - image: /img/es-c-aia26-06.jpg
+- id: figma-config
+  client: Figma
+  title: Config 2025
+  concept: true
+  role: Group Creative Director, San Francisco
+  description: 'A concept for Figma’s annual design and development conference, built around the Friends of Figma community: FigJam brought to life as a social space, a Moscone Makers Market, a portal into the FigmaVerse, a Maker Stage, and a general session that turns into Dark Mode after hours.'
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/figjam-irl-neon-collaboration-booth.png
+  - layout: wide-left
+    items:
+    - image: /img/makers-pavilion-at-the-expo.png
+    - image: /img/figjam-irl_-colorful-conference-installation.png
+  - layout: wide-right
+    items:
+    - image: /img/config-conference_-welcome-day-01.png
+    - image: /img/maker-stage-expo-showcase.png
+  - layout: full
+    items:
+    - image: /img/neon-config-dark-mode-stage.png
+- id: amazon-relaycon
+  client: Amazon
+  title: RelayCon 2025
+  concept: true
+  role: Group Creative Director, Las Vegas
+  description: A concept for Amazon’s conference for Relay freight carriers, staged as mission training for peak season. The floor follows the carrier journey through four zones, Book, Load, Haul and Deliver, with cinematic monoliths, a central fuel hub and a keynote framed in light.
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - image: /img/es-c-amazon-relaycon-01-v2.jpg
+  - layout: wide-right
+    items:
+    - image: /img/es-c-amazon-relaycon-07-v2.jpg
+    - image: /img/es-c-amazon-relaycon-02-v2.jpg
+  - layout: halves
+    items:
+    - image: /img/es-c-amazon-relaycon-08-v2.jpg
+    - image: /img/es-c-amazon-relaycon-04-v2.jpg
+  - layout: full
+    items:
+    - image: /img/es-c-amazon-relaycon-09-v2.jpg

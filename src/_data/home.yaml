@@ -1,0 +1,100 @@
+lead: Creating brand spaces for memorable moments.
+follow: Where form, space, and story deliver a cohesive experience.
+selected:
+- project: accenture
+  image: /img/es-accenture-film-poster.jpg
+  client: Accenture
+  title: Ideas for Change
+  concept: false
+  dark_fade: false
+- project: t-mobile-5gme
+  image: /img/es-tmobile-01.jpg
+  client: T-Mobile
+  title: 5G & Me
+  concept: false
+  dark_fade: false
+- project: pepsi
+  image: /img/es-pepsi-01-hd.jpg
+  client: Pepsi
+  title: Champions League Final
+  concept: false
+  dark_fade: false
+- project: nissan-global
+  image: /img/es-nissan-01-hd.jpg
+  client: Nissan
+  title: Global Motor Show Experiences
+  concept: false
+  dark_fade: false
+- project: google-next
+  image: /img/es-google-08a.jpg
+  client: Google
+  title: G Suite & Hardware Showcases
+  concept: false
+  dark_fade: false
+- project: apollo
+  image: /img/es-apollo-03.jpg
+  client: Apollo
+  title: Annual Meeting
+  concept: false
+  dark_fade: true
+- project: chicago-bears
+  image: /img/p1004788a.jpg
+  client: Chicago Bears
+  title: Great British Bears
+  concept: false
+  dark_fade: false
+more:
+- project: apec
+  image: /img/bz4_1494_53335501130_o.jpg
+  client: APEC
+  title: Leaders Week
+  concept: false
+  dark_fade: false
+- project: adt-ces
+  image: /img/es-adt-01.jpg
+  client: ADT
+  title: CES Brand Showcase
+  concept: false
+  dark_fade: true
+- project: vodafone-mwc
+  image: /img/8.jpg
+  client: Vodafone
+  title: Mobile World Congress
+  concept: true
+  dark_fade: true
+- project: vodafone-power-of-voice
+  image: /img/covent-garden.jpg
+  client: Vodafone
+  title: Power of Voice
+  concept: true
+  dark_fade: true
+- project: jw-marriott-venice
+  image: /img/jm-1707.jpg
+  client: JW Marriott
+  title: Venice Hotel Launch
+  concept: false
+  dark_fade: true
+- project: intel-garden
+  image: /img/es-c-intel-garden-01.jpg
+  client: Intel
+  title: Garden of AI
+  concept: true
+  dark_fade: false
+- project: aia26
+  image: /img/es-c-aia26-01.jpg
+  client: AIA26
+  title: Built to Inspire
+  concept: true
+  dark_fade: true
+- project: figma-config
+  image: /img/figjam-irl-neon-collaboration-booth.png
+  client: Figma
+  title: Config 2025
+  concept: true
+  dark_fade: true
+- project: amazon-relaycon
+  image: /img/es-c-amazon-relaycon-01-v2.jpg
+  client: Amazon
+  title: RelayCon 2025
+  concept: true
+  dark_fade: false

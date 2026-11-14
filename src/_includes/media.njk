@@ -1,0 +1,22 @@
+{%- macro img(it, alt) -%}<img src="{{ it.image }}" alt="{{ it.alt or alt }}" loading="lazy"{% if it.crop %} style="{{ it.crop }}"{% endif %}>{%- endmacro -%}
+{%- macro item(it, cls, alt) -%}
+{%- if it.video and not it.autoplay -%}
+<span class="im {{ cls }} fv play"><video src="{{ it.video }}" poster="{{ it.poster }}" controls playsinline preload="metadata" aria-label="{{ it.alt or alt }}"></video><span class="pb" aria-hidden="true"><i><b></b></i><span>Play film <span class="d">{{ it.duration }}</span></span></span></span>
+{%- elif it.video -%}
+<span class="im vd"><video src="{{ it.video }}" poster="{{ it.poster }}" autoplay loop muted playsinline preload="auto" aria-label="{{ it.alt or alt }}"></video></span>
+{%- else -%}
+<span class="im{% if cls %} {{ cls }}{% endif %}">{{ img(it, alt) }}</span>
+{%- endif -%}
+{%- endmacro -%}
+{%- macro row(r, alt) -%}
+{%- set i = r.items -%}
+{%- if r.layout == "full" -%}{{ item(i[0], "f", alt) }}
+{%- elif r.layout == "wide-left" -%}{{ item(i[0], "w7", alt) }}{{ item(i[1], "w5", alt) }}
+{%- elif r.layout == "wide-right" -%}{{ item(i[0], "w5", alt) }}{{ item(i[1], "w7", alt) }}
+{%- elif r.layout == "halves" -%}{{ item(i[0], "w6", alt) }}{{ item(i[1], "w6", alt) }}
+{%- elif r.layout == "tall-landscape" -%}<div class="pl">{{ item(i[0], "pt", alt) }}{{ item(i[1], "ls", alt) }}</div>
+{%- elif r.layout == "landscape-tall" -%}<div class="pl">{{ item(i[0], "ls", alt) }}{{ item(i[1], "pt", alt) }}</div>
+{%- elif r.layout == "three-tall" -%}<div class="p3">{{ item(i[0], "pt", alt) }}{{ item(i[1], "pt", alt) }}{{ item(i[2], "pt", alt) }}</div>
+{%- elif r.layout == "tall-stack" or r.layout == "video-stack" -%}<div class="ps">{{ item(i[0], "pt", alt) }}<div class="st">{{ item(i[1], "", alt) }}{{ item(i[2], "", alt) }}</div></div>
+{%- endif -%}
+{%- endmacro -%}
