@@ -140,3 +140,4 @@ body:has(#es):not(.sqs-edit-mode) #container{overflow:clip!important}
 #es .abr>.ap3{background:#fff;margin:-28px 0 -56px;padding:28px 40px 56px;column-gap:28px}
 @media (max-width:1000px){#es .abr>.ap3{padding:28px 28px 48px}}
 @media (max-width:760px){#es .abr>.ap3{margin:0;padding:22px 20px 26px;row-gap:28px}}
+@media (min-width:1001px){#es .abr>.ap3>div{max-width:17em}}
