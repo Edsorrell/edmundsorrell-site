@@ -10,6 +10,7 @@ projects:
   - layout: full
     items:
     - video: /media/es-accenture-film.mp4
+      stream: /media/accenture-film/index.m3u8
       poster: /img/es-accenture-film-poster.jpg
       alt: Accenture Ideas for Change film
       duration: '4:00'

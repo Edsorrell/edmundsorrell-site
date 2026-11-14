@@ -86,6 +86,7 @@ content:
                 fields:
                   - { name: image, label: Image, type: image, options: { media: images } }
                   - { name: video, label: Video (instead of image), type: file, options: { media: videos } }
+                  - { name: stream, label: Streaming version (Claude sets this up – leave as is), type: string }
                   - { name: poster, label: Video poster image, type: image, options: { media: images } }
                   - { name: autoplay, label: Silent looping video (off = film with play button), type: boolean }
                   - { name: duration, label: Film length (e.g. 4:00), type: string }
