@@ -309,7 +309,7 @@ projects:
     - video: /media/es-vestis-loop.mp4
       poster: /img/es-vestis-loop-poster.jpg
       autoplay: true
-      alt: Vestis Analyst Day, a walk through the vignettes
+      alt: Vestis analyst day and bell ringing, a walk through the vignettes
   - layout: wide-left
     items:
     - image: /img/es-vestis-02.jpg
@@ -321,10 +321,6 @@ projects:
     items:
     - image: /img/es-vestis-04.jpg
     - image: /img/es-vestis-05.jpg
-  - layout: halves
-    items:
-    - image: /img/es-vestis-06.jpg
-    - image: /img/es-vestis-07.jpg
   - layout: landscape-tall
     items:
     - image: /img/es-vestis-08.jpg
@@ -335,20 +331,10 @@ projects:
   - layout: full
     items:
     - image: /img/es-vestis-11.jpg
-  - layout: full
-    items:
-    - video: /media/es-vestis-bell-loop.mp4
-      poster: /img/es-vestis-bell-loop-poster.jpg
-      autoplay: true
-      alt: Vestis bell ringing, the vignettes outside the New York Stock Exchange
   - layout: tall-landscape
     items:
     - image: /img/es-vestis-12.jpg
-    - image: /img/es-vestis-13.jpg
-  - layout: halves
-    items:
     - image: /img/es-vestis-14.jpg
-    - image: /img/es-vestis-15.jpg
   - layout: halves
     items:
     - image: /img/es-vestis-16.jpg
@@ -356,10 +342,6 @@ projects:
   - layout: full
     items:
     - image: /img/es-vestis-18.jpg
-  - layout: landscape-tall
-    items:
-    - image: /img/es-vestis-19.jpg
-    - image: /img/es-vestis-20.jpg
   - layout: halves
     items:
     - image: /img/es-vestis-21.jpg
