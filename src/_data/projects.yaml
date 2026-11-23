@@ -301,7 +301,7 @@ projects:
   title: NYSE Listing
   concept: false
   role: Group Creative Director, New York
-  description: 'Activations for Vestis’s analyst day and bell ringing ceremony as the workplace supply company went public at the New York Stock Exchange. Built on the line “Others see dirty clothes. We see character,” each moment celebrated the people that make it all work. At analyst day, invented businesses came to life as vignettes, like Sandello’s Italian restaurant, where “30 orders of Nonna Sandello’s Lasagna in three hours” lit up a chef’s jacket splattered with tomato sauce. For the bell ringing, actors played out a brass instrument repair shop, a bakery and a laboratory in small scenes outside the exchange, repeated through the day for passers by and press.'
+  description: 'Activations for Vestis’s analyst day and bell ringing ceremony as the workplace supply company went public at the New York Stock Exchange. Built on the line “Others see dirty clothes. We see character,” each moment celebrated the people that make it all work. At analyst day, invented businesses came to life as vignettes, like Sandello’s Italian restaurant, where “30 orders of Nonna Sandello’s Lasagna in three hours” lit up a chef’s jacket splattered with tomato sauce. For the bell ringing ceremony we built an installation outside the exchange: a row of mock businesses, from a brass instrument repair shop to a cannoli bakery and a cancer research lab, each staffed by actors in role. Vestis employees, also played by actors, made the rounds delivering fresh uniforms and picking up the dirties in a tongue in cheek show that ended every five minutes in a street dance party, played on the instruments from the repair shop.'
   credit: ''
   rows:
   - layout: full
@@ -332,6 +332,41 @@ projects:
   - layout: full
     items:
     - image: /img/es-vestis-10.jpg
+  - layout: full
+    items:
+    - image: /img/es-vestis-11.jpg
+  - layout: full
+    items:
+    - video: /media/es-vestis-bell-loop.mp4
+      poster: /img/es-vestis-bell-loop-poster.jpg
+      autoplay: true
+      alt: Vestis bell ringing, the vignettes outside the New York Stock Exchange
+  - layout: tall-landscape
+    items:
+    - image: /img/es-vestis-12.jpg
+    - image: /img/es-vestis-13.jpg
+  - layout: halves
+    items:
+    - image: /img/es-vestis-14.jpg
+    - image: /img/es-vestis-15.jpg
+  - layout: halves
+    items:
+    - image: /img/es-vestis-16.jpg
+    - image: /img/es-vestis-17.jpg
+  - layout: full
+    items:
+    - image: /img/es-vestis-18.jpg
+  - layout: landscape-tall
+    items:
+    - image: /img/es-vestis-19.jpg
+    - image: /img/es-vestis-20.jpg
+  - layout: halves
+    items:
+    - image: /img/es-vestis-21.jpg
+    - image: /img/es-vestis-22.jpg
+  - layout: full
+    items:
+    - image: /img/es-vestis-23.jpg
 - id: intel-garden
   client: Intel
   title: Garden of AI
