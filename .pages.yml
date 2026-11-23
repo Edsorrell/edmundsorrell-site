@@ -30,7 +30,7 @@ content:
             label: Links to project
             type: select
             options:
-              values: [accenture, t-mobile-5gme, pepsi, nissan-global, google-next, apollo, chicago-bears, apec, adt-ces, vodafone-mwc, vodafone-power-of-voice, jw-marriott-venice, intel-garden, aia26, figma-config, amazon-relaycon]
+              values: [accenture, t-mobile-5gme, pepsi, nissan-global, google-next, apollo, chicago-bears, apec, adt-ces, vodafone-mwc, vodafone-power-of-voice, jw-marriott-venice, vestis, intel-garden, aia26, figma-config, amazon-relaycon]
           - { name: image, label: Card image, type: image, options: { media: images } }
           - { name: client, label: Client, type: string }
           - { name: title, label: Project title, type: string }

@@ -74,6 +74,12 @@ more:
   title: Venice Hotel Launch
   concept: false
   dark_fade: true
+- project: vestis
+  image: /img/es-vestis-01.jpg
+  client: Vestis
+  title: NYSE Listing
+  concept: false
+  dark_fade: true
 - project: intel-garden
   image: /img/es-c-intel-garden-01.jpg
   client: Intel

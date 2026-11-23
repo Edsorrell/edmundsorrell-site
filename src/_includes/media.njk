@@ -3,7 +3,7 @@
 {%- if it.video and not it.autoplay -%}
 <span class="im {{ cls }} fv play"><video src="{{ it.video }}"{% if it.stream %} data-hls="{{ it.stream }}"{% endif %} poster="{{ it.poster }}" controls playsinline preload="metadata" aria-label="{{ it.alt or alt }}"></video><span class="pb" aria-hidden="true"><i><b></b></i><span>Play film <span class="d">{{ it.duration }}</span></span></span></span>
 {%- elif it.video -%}
-<span class="im vd"><video src="{{ it.video }}" poster="{{ it.poster }}" autoplay loop muted playsinline preload="auto" aria-label="{{ it.alt or alt }}"></video></span>
+<span class="im vd{% if cls == 'f' %} f{% endif %}"><video src="{{ it.video }}" poster="{{ it.poster }}" autoplay loop muted playsinline preload="auto" aria-label="{{ it.alt or alt }}"></video></span>
 {%- else -%}
 <span class="im{% if cls %} {{ cls }}{% endif %}">{{ img(it, alt) }}</span>
 {%- endif -%}

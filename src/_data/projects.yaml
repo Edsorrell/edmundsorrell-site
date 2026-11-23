@@ -296,6 +296,42 @@ projects:
     items:
     - image: /img/gwb-4455.jpg
     - image: /img/gwb-4329.jpg
+- id: vestis
+  client: Vestis
+  title: NYSE Listing
+  concept: false
+  role: Group Creative Director, New York
+  description: 'Activations for Vestis’s analyst day and bell ringing ceremony as the workplace supply company went public at the New York Stock Exchange. Built on the line “Others see dirty clothes. We see character,” each moment celebrated the people that make it all work. At analyst day, invented businesses came to life as vignettes, like Sandello’s Italian restaurant, where “30 orders of Nonna Sandello’s Lasagna in three hours” lit up a chef’s jacket splattered with tomato sauce. For the bell ringing, actors played out a brass instrument repair shop, a bakery and a laboratory in small scenes outside the exchange, repeated through the day for passers by and press.'
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - video: /media/es-vestis-loop.mp4
+      poster: /img/es-vestis-loop-poster.jpg
+      autoplay: true
+      alt: Vestis Analyst Day, a walk through the vignettes
+  - layout: wide-left
+    items:
+    - image: /img/es-vestis-02.jpg
+    - image: /img/es-vestis-03.jpg
+  - layout: full
+    items:
+    - image: /img/es-vestis-01.jpg
+  - layout: tall-landscape
+    items:
+    - image: /img/es-vestis-04.jpg
+    - image: /img/es-vestis-05.jpg
+  - layout: halves
+    items:
+    - image: /img/es-vestis-06.jpg
+    - image: /img/es-vestis-07.jpg
+  - layout: landscape-tall
+    items:
+    - image: /img/es-vestis-08.jpg
+    - image: /img/es-vestis-09.jpg
+  - layout: full
+    items:
+    - image: /img/es-vestis-10.jpg
 - id: intel-garden
   client: Intel
   title: Garden of AI
