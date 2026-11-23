@@ -321,10 +321,11 @@ projects:
     items:
     - image: /img/es-vestis-04.jpg
     - image: /img/es-vestis-05.jpg
-  - layout: landscape-tall
+  - layout: three-tall
     items:
-    - image: /img/es-vestis-08.jpg
     - image: /img/es-vestis-09.jpg
+    - image: /img/es-vestis-06.jpg
+    - image: /img/es-vestis-07.jpg
   - layout: full
     items:
     - image: /img/es-vestis-10.jpg
