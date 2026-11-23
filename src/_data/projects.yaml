@@ -339,16 +339,13 @@ projects:
     items:
     - image: /img/es-vestis-16.jpg
     - image: /img/es-vestis-17.jpg
-  - layout: full
-    items:
-    - image: /img/es-vestis-18.jpg
   - layout: halves
     items:
     - image: /img/es-vestis-21.jpg
     - image: /img/es-vestis-22.jpg
   - layout: full
     items:
-    - image: /img/es-vestis-23.jpg
+    - image: /img/es-vestis-18.jpg
 - id: intel-garden
   client: Intel
   title: Garden of AI
