@@ -346,6 +346,55 @@ projects:
   - layout: full
     items:
     - image: /img/es-vestis-18.jpg
+- id: procore-groundbreak
+  client: Procore
+  title: Groundbreak
+  concept: false
+  role: Group Creative Director, New York
+  description: 'Groundbreak is Procore’s annual conference, and it arrived at a turning point for the company: a new leader, a sharper focus on product, and a deeper investment in the construction technology community it carries the flag for. We framed the brand for that moment across the whole event, from general sessions built around the product story to an expo floor that felt like a job site, with a timber framed arrival, an Innovation Roundup, a portal potty, a hat bar, a mental health installation and adoptable shelter dogs in Procore bandanas.'
+  credit: ''
+  rows:
+  - layout: full
+    items:
+    - video: /media/es-procore-loop.mp4
+      poster: /img/es-procore-loop-poster.jpg
+      autoplay: true
+      alt: Procore Groundbreak, a walk through the conference
+  - layout: full
+    items:
+    - image: /img/es-procore-01.jpg
+  - layout: halves
+    items:
+    - image: /img/es-procore-02.jpg
+    - image: /img/es-procore-03.jpg
+  - layout: full
+    items:
+    - image: /img/es-procore-04.jpg
+  - layout: halves
+    items:
+    - image: /img/es-procore-05.jpg
+    - image: /img/es-procore-06.jpg
+  - layout: full
+    items:
+    - image: /img/es-procore-07.jpg
+  - layout: halves
+    items:
+    - image: /img/es-procore-08.jpg
+    - image: /img/es-procore-09.jpg
+  - layout: halves
+    items:
+    - image: /img/es-procore-10.jpg
+    - image: /img/es-procore-11.jpg
+  - layout: full
+    items:
+    - image: /img/es-procore-12.jpg
+  - layout: halves
+    items:
+    - image: /img/es-procore-13.jpg
+    - image: /img/es-procore-14.jpg
+  - layout: full
+    items:
+    - image: /img/es-procore-15.jpg
 - id: intel-garden
   client: Intel
   title: Garden of AI

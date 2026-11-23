@@ -80,6 +80,12 @@ more:
   title: NYSE Listing
   concept: false
   dark_fade: true
+- project: procore-groundbreak
+  image: /img/es-procore-04.jpg
+  client: Procore
+  title: Groundbreak
+  concept: false
+  dark_fade: true
 - project: intel-garden
   image: /img/es-c-intel-garden-01.jpg
   client: Intel
