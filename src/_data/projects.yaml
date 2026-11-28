@@ -313,35 +313,21 @@ projects:
   - layout: halves
     items:
     - image: /img/es-vestis-02.jpg
-    - image: /img/es-vestis-05.jpg
-  - layout: full
+    - image: /img/es-vestis-11.jpg
+  - layout: carousel
     items:
     - image: /img/es-vestis-01.jpg
-  - layout: three-tall
-    items:
+    - image: /img/es-vestis-05.jpg
     - image: /img/es-vestis-09.jpg
     - image: /img/es-vestis-07.jpg
     - image: /img/es-vestis-06.jpg
-  - layout: full
-    items:
     - image: /img/es-vestis-10.jpg
-  - layout: full
-    items:
-    - image: /img/es-vestis-11.jpg
-  - layout: tall-landscape
-    items:
     - image: /img/es-vestis-12.jpg
     - image: /img/es-vestis-14.jpg
-  - layout: halves
-    items:
     - image: /img/es-vestis-16.jpg
     - image: /img/es-vestis-17.jpg
-  - layout: halves
-    items:
     - image: /img/es-vestis-21.jpg
     - image: /img/es-vestis-22.jpg
-  - layout: full
-    items:
     - image: /img/es-vestis-18.jpg
 - id: procore-groundbreak
   client: Procore

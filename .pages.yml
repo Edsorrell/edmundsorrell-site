@@ -79,6 +79,7 @@ content:
                     - three-tall      # 3 portrait images
                     - tall-stack      # 1 tall image + 2 stacked
                     - video-stack     # 1 looping video + 2 stacked
+                    - carousel        # any number of photos, swipe or arrows
               - name: items
                 label: Images in this row
                 type: object

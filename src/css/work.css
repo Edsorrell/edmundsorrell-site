@@ -177,3 +177,17 @@ body:has(#es):not(.sqs-edit-mode) #container{overflow:clip!important}
 #es{--mu:#6B6963;font-variant-numeric:lining-nums}#es p{text-wrap:pretty}#es .cpi p,#es .abr p{max-width:36em}#es .ap3 p,#es .lst2 .mu{line-height:1.45}#es .ap3>div>.mu,#es .ct{font-variant-numeric:tabular-nums lining-nums}@media (min-width:761px){#es .cph h2{font-size:clamp(26px,2.3vw,32px);letter-spacing:-.018em;line-height:1.2}}
 #es .ct .say{font-family:'Newsreader',Georgia,serif;font-weight:400;font-size:clamp(34px,4.2vw,56px);line-height:1.05;letter-spacing:-.015em}#es .ct .em{margin-top:24px}#es .ap3>div>.mu{display:block;font-family:'Newsreader',Georgia,serif;font-size:26px;line-height:1;letter-spacing:0;margin-bottom:12px}
 #es .ptitle{font-size:clamp(32px,3.2vw,46px);line-height:1.1;letter-spacing:-.025em;padding-top:100px}#es .ptitle+.cp{padding-top:64px}@media (max-width:760px){#es .ptitle{padding-top:56px}#es .ptitle+.cp{padding-top:44px}}
+
+/* Carousel: swipe on phone, arrows on laptop; next photo peeks in at the edge */
+#es .car{grid-column:1/-1;min-width:0}
+#es .car .crt{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+#es .car .crt::-webkit-scrollbar{display:none}
+#es .car .crt:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+#es .car .crs{flex:none;height:min(560px,62vh);max-width:86%;scroll-snap-align:start;background:#ECEBE7;overflow:hidden}
+#es .car .crs img{display:block;width:100%;height:100%;object-fit:cover}
+#es .car .crn{display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-size:14px}
+#es .car .crc b{font-weight:inherit;color:var(--fg,#111)}
+#es .car .cra{display:flex;gap:8px}
+#es .car button{width:44px;height:44px;border-radius:50%;border:1px solid currentColor;background:none;color:inherit;font:inherit;font-size:18px;line-height:1;cursor:pointer;transition:opacity .2s}
+#es .car button:disabled{opacity:.25;cursor:default}
+@media (max-width:760px){#es .car .crt{gap:10px}#es .car .crs{height:62vw;max-width:88%}#es .car .cra{display:none}}

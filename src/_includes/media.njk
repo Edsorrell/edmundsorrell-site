@@ -8,6 +8,7 @@
 <span class="im{% if cls %} {{ cls }}{% endif %}">{{ img(it, alt) }}</span>
 {%- endif -%}
 {%- endmacro -%}
+{%- macro slide(it, alt) -%}{%- set d = it.image | dims -%}<span class="crs" style="aspect-ratio:{{ d[0] }}/{{ d[1] }}"><img src="{{ it.image }}" alt="{{ it.alt or alt }}" width="{{ d[0] }}" height="{{ d[1] }}" loading="lazy"></span>{%- endmacro -%}
 {%- macro row(r, alt) -%}
 {%- set i = r.items -%}
 {%- if r.layout == "full" -%}{{ item(i[0], "f", alt) }}
@@ -17,6 +18,7 @@
 {%- elif r.layout == "tall-landscape" -%}<div class="pl">{{ item(i[0], "pt", alt) }}{{ item(i[1], "ls", alt) }}</div>
 {%- elif r.layout == "landscape-tall" -%}<div class="pl">{{ item(i[0], "ls", alt) }}{{ item(i[1], "pt", alt) }}</div>
 {%- elif r.layout == "three-tall" -%}<div class="p3">{{ item(i[0], "pt", alt) }}{{ item(i[1], "pt", alt) }}{{ item(i[2], "pt", alt) }}</div>
+{%- elif r.layout == "carousel" -%}<div class="car" data-car><div class="crt" tabindex="0" aria-label="{{ alt }}, more photos">{% for it in i %}{{ slide(it, alt) }}{% endfor %}</div><div class="crn"><span class="crc mu"><b>1</b> / {{ i | length }}</span><span class="cra"><button type="button" class="crp" aria-label="Previous photo" disabled>&larr;</button><button type="button" class="crx" aria-label="Next photo">&rarr;</button></span></div></div>
 {%- elif r.layout == "tall-stack" or r.layout == "video-stack" -%}<div class="ps">{{ item(i[0], "pt", alt) }}<div class="st">{{ item(i[1], "", alt) }}{{ item(i[2], "", alt) }}</div></div>
 {%- endif -%}
 {%- endmacro -%}
