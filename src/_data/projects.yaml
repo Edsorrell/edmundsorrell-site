@@ -18,15 +18,11 @@ projects:
     items:
     - image: /img/es-accenture-01.jpg
     - image: /img/es-accenture-02.jpg
-  - layout: full
+  - layout: carousel
     items:
     - image: /img/es-accenture-05.jpg
-  - layout: wide-right
-    items:
     - image: /img/es-accenture-03.jpg
     - image: /img/es-accenture-06.jpg
-  - layout: full
-    items:
     - image: /img/es-accenture-07.jpg
 - id: t-mobile-5gme
   client: T-Mobile
@@ -43,12 +39,10 @@ projects:
     items:
     - image: /img/es-tmobile-03.jpg
     - image: /img/es-tmobile-05-hd.jpg
-  - layout: halves
+  - layout: carousel
     items:
     - image: /img/es-tmobile-06-hd.jpg
     - image: /img/es-tmobile-07-hd.jpg
-  - layout: tall-landscape
-    items:
     - image: /img/es-tmobile-01.jpg
     - image: /img/es-tmobile-08-hd.jpg
 - id: pepsi
@@ -66,12 +60,10 @@ projects:
     items:
     - image: /img/es-pepsi-02.jpg
     - image: /img/es-pepsi-03.jpg
-  - layout: wide-right
+  - layout: carousel
     items:
     - image: /img/es-pepsi-05.jpg
     - image: /img/es-pepsi-06.jpg
-  - layout: halves
-    items:
     - image: /img/es-pepsi-07.jpg
     - image: /img/es-pepsi-08.jpg
 - id: nissan-global
@@ -89,16 +81,12 @@ projects:
     items:
     - image: /img/es-nissan-02-hd.jpg
     - image: /img/es-nissan-03-hd.jpg
-  - layout: halves
+  - layout: carousel
     items:
     - image: /img/nissan-naias-55.jpg
     - image: /img/nissan-naias-59.jpg
-  - layout: tall-landscape
-    items:
     - image: /img/nissan-naias-83.jpg
     - image: /img/nissan-naias-41.jpg
-  - layout: full
-    items:
     - image: /img/nissan-sport-sedan-concept-unveiling.png
 - id: google-next
   client: Google
@@ -115,12 +103,10 @@ projects:
     items:
     - image: /img/es-google-01-hd.jpg
     - image: /img/es-google-02-hd.jpg
-  - layout: wide-right
+  - layout: carousel
     items:
     - image: /img/es-google-06-hd.jpg
     - image: /img/es-google-07a.jpg
-  - layout: halves
-    items:
     - image: /img/es-google-09-hd_1.jpg
     - image: /img/es-google-10-hd_1.jpg
 - id: apollo
@@ -138,15 +124,11 @@ projects:
     items:
     - image: /img/es-apollo-04.jpg
     - image: /img/es-apollo-12.jpg
-  - layout: full
+  - layout: carousel
     items:
     - image: /img/es-apollo-05.jpg
-  - layout: halves
-    items:
     - image: /img/es-apollo-06.jpg
     - image: /img/es-apollo-07.jpg
-  - layout: three-tall
-    items:
     - image: /img/es-apollo-08.jpg
     - image: /img/es-apollo-13.jpg
     - image: /img/es-apollo-10.jpg
@@ -166,12 +148,10 @@ projects:
     - image: /img/p1004761-pano.jpeg
     - image: /img/p1004719.jpeg
     - image: /img/p1004734.jpeg
-  - layout: wide-left
+  - layout: carousel
     items:
     - image: /img/p1004771.jpeg
     - image: /img/p1004682.jpeg
-  - layout: full
-    items:
     - image: /img/p1004834.jpeg
 - id: apec
   client: APEC
@@ -190,12 +170,10 @@ projects:
       crop: object-position:50% 30%
     - image: /img/ml1_6008_53336918619_o.jpg
       crop: transform:scale(1.4);transform-origin:42% 35%;filter:contrast(1.1) saturate(1.06) brightness(1.03) sepia(.06)
-  - layout: wide-right
+  - layout: carousel
     items:
     - image: /img/bs5_7608_53339234675_o.jpg
     - image: /img/apec-leaders-week-friday_53343474111_o.jpg
-  - layout: halves
-    items:
     - image: /img/bz4_1494_53335501130_o.jpg
     - image: /img/bs2_1592_53335083403_o.jpg
 - id: adt-ces
@@ -213,13 +191,6 @@ projects:
     items:
     - image: /img/es-adt-02.jpg
     - image: /img/es-adt-03.jpg
-  - layout: wide-right
-    items:
-    - image: /img/es-adt-04.jpg
-    - image: /img/es-adt-05.jpg
-  - layout: full
-    items:
-    - image: /img/es-adt-06.jpg
   - layout: video-stack
     items:
     - video: /media/es-adt-pool.mp4
@@ -228,6 +199,11 @@ projects:
       alt: ADT Protection Pool, a visitor falling into the ball pit
     - image: /img/es-adt-07.jpg
     - image: /img/es-adt-08.jpg
+  - layout: carousel
+    items:
+    - image: /img/es-adt-04.jpg
+    - image: /img/es-adt-05.jpg
+    - image: /img/es-adt-06.jpg
 - id: vodafone-mwc
   client: Vodafone
   title: Mobile World Congress
@@ -243,12 +219,10 @@ projects:
     items:
     - image: /img/3.jpg
     - image: /img/4.jpg
-  - layout: halves
+  - layout: carousel
     items:
     - image: /img/5.jpg
     - image: /img/6.jpg
-  - layout: full
-    items:
     - image: /img/2.jpg
 - id: vodafone-power-of-voice
   client: Vodafone
@@ -265,12 +239,10 @@ projects:
     items:
     - image: /img/plinth.jpg
     - image: /img/sation.png
-  - layout: wide-left
+  - layout: carousel
     items:
     - image: /img/bus-stop.png
     - image: /img/retail.png
-  - layout: tall-landscape
-    items:
     - image: /img/retail2.png
     - image: /img/phone.jpg
 - id: jw-marriott-venice
@@ -288,12 +260,10 @@ projects:
     items:
     - image: /img/gwb-4306.jpg
     - image: /img/gwb-4431.jpg
-  - layout: halves
+  - layout: carousel
     items:
     - image: /img/gwb-4427.jpg
     - image: /img/jm-3304.jpg
-  - layout: wide-left
-    items:
     - image: /img/gwb-4455.jpg
     - image: /img/gwb-4329.jpg
 - id: vestis
@@ -343,40 +313,24 @@ projects:
       poster: /img/es-procore-loop-poster.jpg
       autoplay: true
       alt: Procore Groundbreak, a walk through the conference
-  - layout: full
+  - layout: halves
     items:
     - image: /img/es-procore-01.jpg
-  - layout: halves
+    - image: /img/es-procore-04.jpg
+  - layout: carousel
     items:
     - image: /img/es-procore-02.jpg
     - image: /img/es-procore-03.jpg
-  - layout: full
-    items:
-    - image: /img/es-procore-04.jpg
-  - layout: halves
-    items:
     - image: /img/es-procore-05.jpg
     - image: /img/es-procore-06.jpg
-  - layout: full
-    items:
     - image: /img/es-procore-07.jpg
-  - layout: halves
-    items:
     - image: /img/es-procore-08.jpg
     - image: /img/es-procore-09.jpg
-  - layout: halves
-    items:
     - image: /img/es-procore-10.jpg
     - image: /img/es-procore-11.jpg
-  - layout: full
-    items:
     - image: /img/es-procore-12.jpg
-  - layout: halves
-    items:
     - image: /img/es-procore-13.jpg
     - image: /img/es-procore-14.jpg
-  - layout: full
-    items:
     - image: /img/es-procore-15.jpg
 - id: intel-garden
   client: Intel
@@ -393,12 +347,10 @@ projects:
     items:
     - image: /img/es-c-intel-garden-02.jpg
     - image: /img/es-c-intel-garden-03.jpg
-  - layout: wide-right
+  - layout: carousel
     items:
     - image: /img/es-c-intel-garden-04.jpg
     - image: /img/es-c-intel-garden-05.jpg
-  - layout: full
-    items:
     - image: /img/es-c-intel-garden-06.jpg
 - id: aia26
   client: AIA26
@@ -415,12 +367,10 @@ projects:
     items:
     - image: /img/es-c-aia26-02-v2.jpg
     - image: /img/es-c-aia26-03-v2.jpg
-  - layout: halves
+  - layout: carousel
     items:
     - image: /img/es-c-aia26-04-v2.jpg
     - image: /img/es-c-aia26-05-v2.jpg
-  - layout: full
-    items:
     - image: /img/es-c-aia26-06.jpg
 - id: figma-config
   client: Figma
@@ -437,12 +387,10 @@ projects:
     items:
     - image: /img/makers-pavilion-at-the-expo.png
     - image: /img/figjam-irl_-colorful-conference-installation.png
-  - layout: wide-right
+  - layout: carousel
     items:
     - image: /img/config-conference_-welcome-day-01.png
     - image: /img/maker-stage-expo-showcase.png
-  - layout: full
-    items:
     - image: /img/neon-config-dark-mode-stage.png
 - id: amazon-relaycon
   client: Amazon
@@ -459,10 +407,8 @@ projects:
     items:
     - image: /img/es-c-amazon-relaycon-07-v2.jpg
     - image: /img/es-c-amazon-relaycon-02-v2.jpg
-  - layout: halves
+  - layout: carousel
     items:
     - image: /img/es-c-amazon-relaycon-08-v2.jpg
     - image: /img/es-c-amazon-relaycon-04-v2.jpg
-  - layout: full
-    items:
     - image: /img/es-c-amazon-relaycon-09-v2.jpg
