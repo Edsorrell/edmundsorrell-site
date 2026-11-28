@@ -310,22 +310,18 @@ projects:
       poster: /img/es-vestis-loop-poster.jpg
       autoplay: true
       alt: Vestis analyst day and bell ringing, a walk through the vignettes
-  - layout: wide-left
+  - layout: halves
     items:
     - image: /img/es-vestis-02.jpg
-    - image: /img/es-vestis-03.jpg
+    - image: /img/es-vestis-05.jpg
   - layout: full
     items:
     - image: /img/es-vestis-01.jpg
-  - layout: tall-landscape
-    items:
-    - image: /img/es-vestis-04.jpg
-    - image: /img/es-vestis-05.jpg
   - layout: three-tall
     items:
     - image: /img/es-vestis-09.jpg
-    - image: /img/es-vestis-06.jpg
     - image: /img/es-vestis-07.jpg
+    - image: /img/es-vestis-06.jpg
   - layout: full
     items:
     - image: /img/es-vestis-10.jpg
